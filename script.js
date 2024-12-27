@@ -1,3 +1,3 @@
-import { Game } from './js/Game.js';
+import { SnakeGame } from './js/SnakeGame.js';
 
-new Game();
+const game = new SnakeGame();

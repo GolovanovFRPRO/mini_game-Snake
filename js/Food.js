@@ -1,10 +1,10 @@
-export class Apple {
+export class Food {
     constructor(boardSize) {
         this.boardSize = boardSize;
-        this.generateNewPosition();
+        this.spawn();
     }
 
-    generateNewPosition() {
+    spawn() {
         this.x = Math.floor(Math.random() * this.boardSize);
         this.y = Math.floor(Math.random() * this.boardSize);
     }
